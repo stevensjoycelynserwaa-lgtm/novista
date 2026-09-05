@@ -34,8 +34,8 @@ document.querySelectorAll('[data-service]').forEach(el => {
 // 1. Create a free project at https://supabase.com
 // 2. Go to Project Settings > API and copy your Project URL + anon public key below.
 // 3. In the SQL editor, run the query in supabase-setup.sql (included in this project).
-const SUPABASE_URL = 'YOUR_SUPABASE_PROJECT_URL';
-const SUPABASE_ANON_KEY = 'YOUR_SUPABASE_ANON_KEY';
+const SUPABASE_URL = 'https://ihfovpsjdqgtmnijveic.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImloZm92cHNqZHFndG1uaWp2ZWljIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODg2MjQxNTgsImV4cCI6MjEwNDIwMDE1OH0.5DGsrDY0fQLqi4D_GZ4q8G-57CCp2gk59qV9oFmJYZA';
 
 let supabaseClient = null;
 if (SUPABASE_URL !== 'YOUR_SUPABASE_PROJECT_URL' && window.supabase) {
